@@ -1,20 +1,37 @@
 {
-  "name": "example-bare",
+  "name": "gdrive-search",
   "type": "module",
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
-    "start": "vinxi start"
+    "start": "vinxi start",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --write"
   },
   "dependencies": {
     "@solidjs/start": "^1.0.11",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "solid-js": "^1.9.2",
+    "tailwind-merge": "^3.0.1",
+    "tailwindcss-animate": "^1.0.7",
     "vinxi": "^0.4.3"
   },
   "overrides": {
     "vite": "5.4.10"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@fsouza/prettierd": "^0.26.1",
+    "@types/eslint": "^9.6.1",
+    "@typescript-eslint/eslint-plugin": "^8.23.0",
+    "drizzle-kit": "^0.30.4",
+    "eslint": "^8.57.1"
   }
 }
