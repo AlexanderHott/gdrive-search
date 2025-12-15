@@ -10,7 +10,6 @@ export default function App() {
       root={(props) => (
         <MetaProvider>
           <Title>Google Drive Search</Title>
-          <a href="/">Index</a>
           <Suspense>{props.children}</Suspense>
         </MetaProvider>
       )}

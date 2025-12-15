@@ -19,10 +19,13 @@
     "@solidjs/meta": "^0.29.4",
     "@solidjs/router": "^0.15.0",
     "@solidjs/start": "^1.1.0",
+    "@tanstack/solid-virtual": "^3.13.2",
     "better-auth": "^1.2.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "drizzle-orm": "^0.40.0",
+    "googleapis": "^146.0.0",
+    "lucide-solid": "^0.477.0",
     "solid-js": "^1.9.5",
     "tailwind-merge": "^3.0.2",
     "tailwindcss-animate": "^1.0.7",
@@ -37,6 +40,7 @@
     "drizzle-kit": "^0.30.5",
     "postcss": "^8.5.3",
     "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "3"
   }
 }
